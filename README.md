@@ -1,5 +1,4 @@
 # Stock-Screener
-Worked on website with a group
 Welcome to Stock Screener
 This project was created by Nikolas Praschma, Justin Adam, and Andrew Miller for our Data Structures & Algorithms course. Stock Screener pulls real-time information about stocks in the NASDAQ using the Financial Modeling Prep financial data API.
 
