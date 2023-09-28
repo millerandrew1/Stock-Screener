@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance:textfield;
+}
+
+:root {
+  --font-roboto: "Roboto Slab", serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+  background-color: hsl(228, 50%, 92%);
+}
+
+.app {
+  padding: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 0.9px;
+  background: linear-gradient(
+    90deg,
+    rgb(51, 64, 180) 0%,
+    rgba(71, 56, 208, 0) 150%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+h2 {
+  font-size: 1rem;
+  letter-spacing: 0.9px;
+  background: rgb(50, 84, 128);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.sortedMessage {
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 0.9px;
+  background: rgb(50, 84, 128);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: fit-content;
+}
+
+.helpButton {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 3px;
+  background: rgba(40, 132, 252, 0.8);
+  color: rgb(249, 224, 224);
+  cursor: pointer;
+}
+
+.helpButton:hover {
+  background: rgba(40,132,252, 1);
+}
+
+.search {
+  margin: 1.5rem auto 2rem;
+  color: rgb(249, 224, 224);
+  font-size:  16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: rgba(40, 132, 252, 0.8);
+  cursor: pointer;
+}
+
+.search:hover {
+  background: rgba(40,132,252, 1);
+}
+
+.loading {
+  margin: 1.5rem auto 2rem;
+  color: rgb(249, 224, 224);
+  font-size:  16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: rgba(40, 132, 252, 0.5);
+}
+
+.form {
+  width: 80%;
+  text-align: center;
+}
+
+span {
+  font-size: 20px;
+}
+
+input {
+  border-radius: 0.2rem;
+  width: 100px;
+  border: 0;
+}
+
+.grid {
+  border-color: lightgrey;
+  border-style: solid;
+  border-width: 1px 2px 1px 2px;
+}
+
+.cell {
+  background-color: white;
+  border-color: lightgrey;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 10px 20px 10px 20px;
+  display: inline-block;
+  width: 11rem;
+}
+
+.USD {
+  color: green;
+  font-size: 15px;
+  line-height: 16px;
+  margin-left: 3px;
+}
+
+.activeButton {
+  color: rgb(249, 224, 224);
+  font-size:  16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: rgba(40, 132, 252, 0.8);
+  cursor: pointer;
+}
+
+.activeButton:hover {
+  background: rgba(40,132,252, 1);
+}
+
+.nonactiveButton {
+  color: grey;
+  font-size:  16px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background: rgba(240, 240, 240, 0.8);
+  cursor: pointer;
+}
+
+.nonactiveButton:hover {
+  background: rgba(230, 230, 230, 1);
+}
+
+.topBarButton {
+  background-color: white;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 20px;
+  color: grey;
+  width: 13.5rem;
+  height: 45px;
+  cursor: pointer;
+}
+
+.topBarButton:hover {
+  background-color: rgb(244, 241, 241);
+  color: rgb(80, 80, 80);
+  border-color: darkgrey;
+}
